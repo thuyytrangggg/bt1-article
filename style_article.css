@@ -1,7 +1,6 @@
-    .body {
+    body {
       margin: 0;
       padding: 0;
-      /* width: 1440px; */
       max-width: 100%;
     }
 
@@ -23,6 +22,7 @@
       padding-left: 63.58px;
       padding-right: 61px;
       justify-content: space-between;
+
     }
 
 
@@ -1034,76 +1034,76 @@
         max-width: 100%;
       }
 
-        .grid {
-          display: block;
-          padding: 0 16px;
-        }
-
-        .article-card1 {
-          display: block;
-        }
-
-        .img-des {
-          display: none;
-        }
-
-        .img-mob {
-          display: block;
-        }
-
-        .article-card1 {
-          margin-bottom: 32px;
-          text-align: center;
-        }
-
-        .article-card1 img {
-          width: 100%;
-          height: auto;
-          max-width: 100%;
-          display: block;
-          margin: 0 auto;
-        }
-
-        .card-content1 {
-          font-size: 20px;
-          font-family: 'SF Pro Display', serif;
-          line-height: 1.4;
-          padding-top: 20px;
-          padding-left: 37px;
-          padding-right: 36px;
-          text-align: center;
-        }
+      .grid {
+        display: block;
+        padding: 0 16px;
       }
 
-      @media (max-width: 432px) {
-
-        .logo {
-          font-size: 27px;
-        }
-
-        .img-hero {
-          width: 100%;
-          height: auto;
-          max-width: 100%;
-          display: block;
-          margin-top: 52px;
-        }
-
-        .main-title {
-          width: 100%;
-          font-size: 36px;
-          text-align: center;
-          box-sizing: border-box;
-        }
-
-        .subtitle {
-          width: 80%;
-          font-size: 16px;
-          padding: 0 20px;
-          line-height: 170%;
-          font-weight: 400;
-          text-align: center;
-          margin-bottom: 24px;
-          box-sizing: border-box;
-        }
+      .article-card1 {
+        display: block;
       }
+
+      .img-des {
+        display: none;
+      }
+
+      .img-mob {
+        display: block;
+      }
+
+      .article-card1 {
+        margin-bottom: 32px;
+        text-align: center;
+      }
+
+      .article-card1 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .card-content1 {
+        font-size: 20px;
+        font-family: 'SF Pro Display', serif;
+        line-height: 1.4;
+        padding-top: 20px;
+        padding-left: 37px;
+        padding-right: 36px;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 432px) {
+
+      .logo {
+        font-size: 27px;
+      }
+
+      .img-hero {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin-top: 52px;
+      }
+
+      .main-title {
+        width: 100%;
+        font-size: 36px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+
+      .subtitle {
+        width: 80%;
+        font-size: 16px;
+        padding: 0 20px;
+        line-height: 170%;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 24px;
+        box-sizing: border-box;
+      }
+    }
