@@ -911,8 +911,13 @@
         display: none;
       }
 
+      .section1-bottom{
+        padding: 0 20px;
+      }
+
       .tags {
         width: auto;
+
       }
 
       .dotted-line {
