@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style_article.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">NORDIC ROSE</div>
+      <div class="menu-icon">&#8801</div>
+      <div class="nav">
+        <div class="nav-item blog"><a href="#" class="active">BLOG</a></div>
+        <div class="nav-item about"><a href="#">ABOUT</a></div>
+        <div class="nav-item links"><a href="#">LINKS</a></div>
+        <div class="nav-item projects"><a href="#">PROJECTS</a></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="intro">
+    <div class="intro-container">
+      <h2 class="main-title">A few words about this blog platform, Ghost, and how this site was made</h2>
+      <p class="subtitle">Why Ghost (& Figma) instead of Medium, WordPress or other options?</p>
+      <img src="IMG_article/hero_article.png" alt="Hero Graphic" class="img-hero">
+    </div>
+  </div>
+
+  <div class="custom-line"></div>
+
+  <div class="section1">
+    <div class="section1-container">
+      <div class="author-info">
+        <div class="info-detail">
+          <img src="IMG_article/avt.png" alt="MIKA MATIKAINEN" class="author-avatar">
+          <div class="author-meta">
+            <p class="name">MIKA MATIKAINEN</p>
+            <p class="meta">Apr 15, 2020 · 4 min read</p>
+          </div>
+
+          <div class="share-buttons">
+            <button class="share-btn" aria-label="Share on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03h-2.54v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.9h-2.34v7.03C18.34 21.2 22 17.07 22 12.07z" />
+              </svg>
+            </button>
+
+            <button class="share-btn" aria-label="Share on Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.36 8.56 8.56 0 0 1-2.71 1.04 4.26 4.26 0 0 0-7.26 3.88 12.09 12.09 0 0 1-8.77-4.45 4.26 4.26 0 0 0 1.32 5.69 4.23 4.23 0 0 1-1.93-.53v.05a4.26 4.26 0 0 0 3.42 4.17 4.29 4.29 0 0 1-1.92.07 4.26 4.26 0 0 0 3.98 2.96A8.54 8.54 0 0 1 2 19.54 12.07 12.07 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.36 8.36 0 0 0 22.46 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="share-buttons-mob">
+          <button class="share-btn2-mob" aria-label="Share on Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.2 3-3.2.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.4 3H14v7A10 10 0 0 0 22 12z" />
+            </svg>
+          </button>
+          <button class="share-btn2-mob" aria-label="Share on Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.52 8.52 0 0 1-2.71 1.03 4.25 4.25 0 0 0-7.4 3.87A12.05 12.05 0 0 1 3.15 4.6a4.23 4.23 0 0 0 1.31 5.67 4.2 4.2 0 0 1-1.92-.53v.05a4.25 4.25 0 0 0 3.4 4.17 4.27 4.27 0 0 1-1.91.07 4.26 4.26 0 0 0 3.98 2.96 8.52 8.52 0 0 1-5.27 1.82c-.34 0-.68-.02-1.01-.06a12.02 12.02 0 0 0 6.51 1.91c7.81 0 12.08-6.47 12.08-12.08 0-.18-.01-.36-.02-.54A8.56 8.56 0 0 0 24 4.56a8.46 8.46 0 0 1-2.54.7z" />
+            </svg>
+          </button>
+          <button class="share-btn2-mob" aria-label="Share on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.1-.198.05-.372-.025-.521-.075-.149-.672-1.623-.922-2.225-.242-.582-.487-.504-.672-.513l-.573-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.48 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.078 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.412.248-.694.248-1.29.173-1.412-.074-.123-.272-.198-.57-.347m-5.421 7.617h-.001a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.65-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 0 1 6.974 2.892 9.823 9.823 0 0 1 2.888 6.97c-.003 5.451-4.437 9.885-9.87 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .162 5.332.16 11.888c0 2.095.547 4.137 1.588 5.934L.057 24l6.305-1.654a11.87 11.87 0 0 0 5.684 1.447h.005c6.553 0 11.887-5.333 11.89-11.888a11.82 11.82 0 0 0-3.51-8.474" />
+            </svg>
+          </button>
+        </div>
+
+
+        <div class="para para1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In
+            hac habitasse platea dictumst.
+            Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra.</p>
+          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus.
+          </p>
+        </div>
+
+        <div class="para-mob para1-mob">
+          <p>This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it. </p>
+        </div>
+
+        <h3 class="section1-heading">Next on the pipeline</h3>
+
+        <div class="para para2">
+          <p>Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula
+            suscipit finibus. Aenean pharetra quis lacus at viverra.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+
+          <p>Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla.</p>
+        </div>
+
+        <div class="para-mob para2-mob">
+          <p>This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it. </p>
+        </div>
+      </div>
+
+      <div class="img-content1">
+        <img src="IMG_article/img_content.jpg" alt="img content" class="img_content">
+        <div class="caption_img">
+          <p> Image caption centered this way and I’ll make this a bit longer to indicate the amount of line-height.</p>
+        </div>
+      </div>
+
+      <div class="para para3">
+        <p>Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos. Aliquam quis posuere ligula.</p>
+        <p>In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat
+          ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus,
+          id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo.</p>
+
+        <div class="list_content">
+          <p>A list looks like this:
+          <ul class="custom-list">
+            <li>First item in the list</li>
+            <li>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li>
+            <li>Third item in the list</li>
+          </ul>
+          </p>
+        </div>
+
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis
+          posuere ligula.</p>
+
+        <p>Thanks for reading,<br>
+          Mika</p>
+      </div>
+
+      <div class="para3-mob-container">
+        <div class="para-mob para3-mob1">
+          <p>This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it.</p>
+        </div>
+
+        <div class="para-mob para3-mob2">
+          <p>Luckily, in the middle of all that, there are some pockets of content that offer delightfully valuable contrast to cursory wisdom in some of the established channels.</p>
+        </div>
+
+        <div class="share">
+            <p>Share:</p>
+        </div>
+
+      </div>
+
+
+      <div class="section1-bottom">
+        <div class="share-buttons2">
+          <button class="share-btn2" aria-label="Share on Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03h-2.54v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.9h-2.34v7.03C18.34 21.2 22 17.07 22 12.07z" />
+            </svg>
+            <span>Share on Facebook</span>
+          </button>
+
+          <button class="share-btn2" aria-label="Share on Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.36 8.56 8.56 0 0 1-2.71 1.04 4.26 4.26 0 0 0-7.26 3.88 12.09 12.09 0 0 1-8.77-4.45 4.26 4.26 0 0 0 1.32 5.69 4.23 4.23 0 0 1-1.93-.53v.05a4.26 4.26 0 0 0 3.42 4.17 4.29 4.29 0 0 1-1.92.07 4.26 4.26 0 0 0 3.98 2.96A8.54 8.54 0 0 1 2 19.54 12.07 12.07 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.36 8.36 0 0 0 22.46 6z" />
+            </svg>
+            <span>Share on Twitter</span>
+          </button>
+        </div>
+
+        <div class="share-buttons-mob">
+          <button class="share-btn2-mob" aria-label="Share on Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.2 3-3.2.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.4 3H14v7A10 10 0 0 0 22 12z" />
+            </svg>
+          </button>
+          <button class="share-btn2-mob" aria-label="Share on Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.52 8.52 0 0 1-2.71 1.03 4.25 4.25 0 0 0-7.4 3.87A12.05 12.05 0 0 1 3.15 4.6a4.23 4.23 0 0 0 1.31 5.67 4.2 4.2 0 0 1-1.92-.53v.05a4.25 4.25 0 0 0 3.4 4.17 4.27 4.27 0 0 1-1.91.07 4.26 4.26 0 0 0 3.98 2.96 8.52 8.52 0 0 1-5.27 1.82c-.34 0-.68-.02-1.01-.06a12.02 12.02 0 0 0 6.51 1.91c7.81 0 12.08-6.47 12.08-12.08 0-.18-.01-.36-.02-.54A8.56 8.56 0 0 0 24 4.56a8.46 8.46 0 0 1-2.54.7z" />
+            </svg>
+          </button>
+          <button class="share-btn2-mob" aria-label="Share on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.1-.198.05-.372-.025-.521-.075-.149-.672-1.623-.922-2.225-.242-.582-.487-.504-.672-.513l-.573-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.48 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.078 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.412.248-.694.248-1.29.173-1.412-.074-.123-.272-.198-.57-.347m-5.421 7.617h-.001a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.65-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 0 1 6.974 2.892 9.823 9.823 0 0 1 2.888 6.97c-.003 5.451-4.437 9.885-9.87 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .162 5.332.16 11.888c0 2.095.547 4.137 1.588 5.934L.057 24l6.305-1.654a11.87 11.87 0 0 0 5.684 1.447h.005c6.553 0 11.887-5.333 11.89-11.888a11.82 11.82 0 0 0-3.51-8.474" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="tags">
+          <span class="tag-label">Tags:</span>
+          <a href="#" class="tag-item">product design</a>,
+          <a href="#" class="tag-item">culture</a>
+        </div>
+
+        <div class="dotted-line"></div>
+
+        <div class="author-info-detail">
+          <img src="IMG_article/avt.png" alt="MIKA MATIKAINEN" class="author-avatar2">
+          <p class="info"><span
+              style="font-weight: bold; font-weight: 700px; letter-spacing: 2px; text-transform: uppercase;">MIKA
+              MATIKAINEN</span> is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA
+            participant,
+            Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <div class="line"></div>
+    <div class="eyes">
+      <div class="eye eye-left">
+        <div class="pupil"></div>
+      </div>
+      <div class="eye eye-right">
+        <div class="pupil"></div>
+      </div>
+    </div>
+    <div class="line"></div>
+  </div>
+
+
+  <div class="section2">
+    <div class="section2-container">
+      <h3 class="section2-heading">What to read next</h3>
+      <div class="art-desktop">
+        <div class="grid">
+          <div class="article-card1 img-mob">
+            <img src="IMG_article/listting_desktop1-2.png" alt="Article 2">
+            <div class="card-content1">
+              <p>Granny gives everyone the finger, and other tips from OFFF Barcelona</p>
+            </div>
+          </div>
+
+          <div class="article-card1 img-des">
+            <img src="IMG_article/listting_desktop1-2.png" alt="Article 2">
+            <div class="card-content1">
+              <p>Connecting artificial intelligence with digital product design</p>
+            </div>
+          </div>
+
+          <div class="article-card1 ">
+            <img src="IMG_article/listting_desktop2-1.png" alt="Article 3">
+            <div class="card-content1">
+              <p>Hello world, or, in other words, why this blog exists</p>
+            </div>
+          </div>
+
+          <div class="article-card1">
+            <img src="IMG_article/1-1.png" alt="Article 1">
+            <div class="card-content1">
+              <p>Here are some things you should know regarding how we work</p>
+            </div>
+          </div>
+
+          <div class="article-card1 img-des">
+            <img src="IMG_article/listing-mobile2.png" alt="Article 11">
+            <div class="card-content1">
+              <p>A few words about this blog platform, Ghost, and how this site was made</p>
+            </div>
+          </div>
+
+          <div class="article-card1 img-des">
+            <img src="IMG_article/listing-mobile1.png" alt="Article 11">
+            <div class="card-content1">
+              <p>Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
+            </div>
+          </div>
+
+          <div class="article-card1 img-des">
+            <img src="IMG_article/listting_desktop6-2.png" alt="Article 12">
+            <div class="card-content1">
+              <p>How modern remote working tools get along with Old School Cowboy's methods</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="newsletter-box">
+        <h2 class="newsletter-box-heading">Sign up for the newsletter</h2>
+        <p>If you want relevant updates occasionally, sign up for the private newsletter. Your email is never shared.
+        </p>
+        <form class="newsletter-form">
+          <input class="enter-e" type="email" placeholder="Enter your email..." required>
+          <button class="submit" type="submit">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="content-footer">
+      <div class="footer-tags">
+        <span class="tag bold" style="margin-right: 10px;">DIGITAL PRODUCT DESIGN</span>
+        <span class="tag" style="margin-right: 19px;">REMOTE WORK</span>
+        <span class="tag bold" style="margin-right: 16px;">UX DESIGN</span>
+        <span class="tag" style="margin-right: 13px;">DISTRIBUTED TEAMS</span>
+        <span class="tag bold" style="margin-right: 13px;">CREATIVITY</span>
+        <span class="tag" style="margin-right: 18px;">STRATEGY</span>
+        <span class="tag bold" style="margin-right: 17px;">SUSPENSE</span>
+        <span class="tag">GROWTH</span>
+      </div>
+
+      <div class="footer-cap">
+        <h2 class="footer-logo">NORDIC ROSE</h2>
+        <div class="footer-sub">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac
+          habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus.
+        </div>
+        <div class="footer-links">
+          <a class="link1" href="#">Twitter</a>
+          <a class="link2" href="#">LinkedIn</a>
+          <a class="link3" href="#">RSS</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2012–2020 Nordic Rose Co.<br>All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
