@@ -809,8 +809,8 @@
       }
 
       .img_content {
-        width: 100%;
-        height: 25%;
+        width: 375px;
+        height: 250px;
         box-sizing: border-box;
       }
 
